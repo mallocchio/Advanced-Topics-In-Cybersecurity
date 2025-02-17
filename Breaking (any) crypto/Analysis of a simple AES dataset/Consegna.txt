@@ -1,0 +1,9 @@
+You get a demo script that performs a DPA style attack on a set of power traces. The demo is based on a differential attack, using a Hamming weight leakage model, and correlation as a distinguisher. You job is to investigate several questions:
+
+- rewrite the script so that you are attacking bits instead of bytes, using a single bit leakage model, and using both correlation as well as a difference of means based distinguisher. Does the choice of distinguisher make any difference?
+
+- rewrite the script so that you are attacking the input of the SubBytes operation, and attack this intermediate with a distinguisher of your choice. What do you notice in terms of attack outcomes?
+
+- how many traces are needed at the least (for your best attack strategy on these traces) to determine the AES key with reasonable enumeration effort? (This question requires to look beyond the course material) (guarda il handout 2 --> c'è una formula da vedere sezione 7.3)
+
+Your submission should consist of a brief write up that explains your findings, with plots and scripts. 
